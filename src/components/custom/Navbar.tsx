@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Menu from "./Menu";
 function Navbar() {
   return (
-    <div className=" flex items-center justify-center bg-white min-h-[64px]">
+    <nav className=" flex items-center justify-center bg-white min-h-[64px]">
       <div className=" grid grid-cols-[10%,80%,10%] items-center w-4/5 h-full">
         {/* Logo */}
         <div>
@@ -23,7 +23,7 @@ function Navbar() {
           </Avatar>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 
